@@ -3,6 +3,6 @@ import Content from '../components/Content'
 
 export default (props) => (
   <Layout>
-    <Content title={props.url.query.title} />
+    <Content id={props.id} title={props.url.query.title} />
   </Layout>
 )
